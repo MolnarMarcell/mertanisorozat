@@ -1,0 +1,1 @@
+Mértani sorozat oldal
