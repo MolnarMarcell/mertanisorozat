@@ -7,8 +7,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Mértani Sorozat</title>
 </head>
-<body
-    <h1>Végtelen mértani sorozat</h1>
+<body>
+    <div class="container">
+        <h1>Végtelen mértani sorozat</h1>
+        <label>
+            <input type="range" min="-0.9" max="0.9" value="0.49" step="0.01" id="qSlider">
+            <strong><span id="qValue">0.49</span>">0.49</strong>
+        </label>
+    <div class="values">
+        <p><strong>Sorozat:</strong>1,q,q^2,q^3,...</p>
+        <p><strong>Véges összeg (10 tag):</strong><strong id="finiteSum"></strong></p>
+        </div>
+        <div id="terms"></div>
+    </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
